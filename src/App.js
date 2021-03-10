@@ -7,14 +7,12 @@ import {ModalProvider} from "./contexts/ModalContext"
 
 function App() {
   return (
-    <> 
      <ModalProvider value="">
-      <BrowserRouter>
-          <GlobalStyles/>
-          <Routes />
-      </BrowserRouter>
+        <BrowserRouter>
+            <GlobalStyles/>
+            <Routes />
+        </BrowserRouter>
       </ModalProvider>
-    </>
   );
 }
 
