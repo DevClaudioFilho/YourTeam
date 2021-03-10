@@ -1,6 +1,6 @@
 import React,{useContext} from 'react';
 
-import {  Container,Header,ProfileInfos,Infos,Filters,TableContainer,ModalContent } from './styles';
+import {  Container,Header,ProfileInfos,Infos,TableContainer,ModalContent } from './styles';
 
 import Eye from "../../assets/icons/Eye.svg"
 import Foto from "../../assets/perfil.jpg"

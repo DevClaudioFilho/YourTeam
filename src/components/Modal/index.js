@@ -1,4 +1,4 @@
-import React,{useState,useContext} from 'react';
+import React,{useContext} from 'react';
 import { ModalContext } from "../../contexts/ModalContext";
 import { Container,Content } from './styles';
 
