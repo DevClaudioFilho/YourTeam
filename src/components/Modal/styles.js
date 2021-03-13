@@ -18,7 +18,7 @@ export const Content = styled.div`
     opacity:100%;
     width:560px;
     height: 690px;
-    background-color:#C4C4C4;
+    background-color:#f4f4f4;
     border-radius: 4px;
     position: relative;
 

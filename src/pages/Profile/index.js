@@ -60,20 +60,20 @@ function Profile() {
           </thead>
           <tbody>
             <tr>
-              <td>Nome</td>
-              <td>Cargo</td>
-              <td>Formacao</td>
-              <td>Status</td>
-              <td>
-                <Link to="/profile/id" >
-                  <img src={Eye} alt="Visualizar"/>
-                </Link>
-                <button>
-                  <img src={Vector} alt="Visualizar"/>
-                </button>
-              </td>
-          </tr>
-          <tr>
+                <td>Nome</td>
+                <td>Cargo</td>
+                <td>Formacao</td>
+                <td>Status</td>
+                <td>
+                  <Link to="/profile/id" >
+                    <img src={Eye} alt="Visualizar"/>
+                  </Link>
+                  <button>
+                    <img src={Vector} alt="Visualizar"/>
+                  </button>
+                </td>
+            </tr>
+            <tr>
               <td>Nome</td>
               <td>Cargo</td>
               <td>Formacao</td>
@@ -87,24 +87,63 @@ function Profile() {
               </button>
             </td>
           </tr>
-          <tr>
+            <tr>
+                  <td>Nome</td>
+                  <td>Cargo</td>
+                  <td>Formacao</td>
+                  <td>Status</td>
+                  <td>
+                    <Link to="/profile/id" >
+                      <img src={Eye} alt="Visualizar"/>
+                    </Link>
+                    <button>
+                      <img src={Vector} alt="Visualizar"/>
+                    </button>
+                  </td>
+              </tr>
+            <tr>
+                <td>Nome</td>
+                <td>Cargo</td>
+                <td>Formacao</td>
+                <td>Status</td>
+                <td>
+                  <Link to="/profile/id" >
+                    <img src={Eye} alt="Visualizar"/>
+                  </Link>
+                  <button>
+                    <img src={Vector} alt="Visualizar"/>
+                  </button>
+                </td>
+            </tr>
+            <tr>
               <td>Nome</td>
+              <td>Cargo</td>
+              <td>Formacao</td>
+              <td>Status</td>
+            <td>
+              <Link to="/profile/id" >
+                <img src={Eye} alt="Visualizar"/>
+              </Link>
+              <button>
+                <img src={Vector} alt="Visualizar"/>
+              </button>
+            </td>
           </tr>
-          <tr>
-              <td>Nome</td>
-          </tr>
-          <tr>
-              <td>Nome</td>
-          </tr>
-          <tr>
-              <td>Nome</td>
-          </tr>
-          <tr>
-              <td>Nome</td>
-          </tr>
-          <tr>
-              <td>Nome</td>
-          </tr>
+            <tr>
+                  <td>Nome</td>
+                  <td>Cargo</td>
+                  <td>Formacao</td>
+                  <td>Status</td>
+                  <td>
+                    <Link to="/profile/id" >
+                      <img src={Eye} alt="Visualizar"/>
+                    </Link>
+                    <button>
+                      <img src={Vector} alt="Visualizar"/>
+                    </button>
+                  </td>
+              </tr>
+
           </tbody>
         </table>  
         </TableContainer>

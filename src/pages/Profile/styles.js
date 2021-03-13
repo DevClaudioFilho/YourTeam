@@ -3,19 +3,19 @@ import styled from 'styled-components';
 
 export const Header =styled.header`
   width: 100%;
-  height: 100px;
+  height: 80px;
 
-  background: #C4C4C4;
-  margin-bottom:30px;
+  background: #f4f4f4;
+  margin-bottom:60px;
 `;
 
 export const Container =styled.div`
-    max-width: 1150px;
+    max-width: 1000px;
     height: 75vh;
     margin:0 auto;
-    width: 1000px;
+    width: 100%;
 
-    background: #C4C4C4;
+    background: #f4f4f4;
     border-radius:5px;
 
     padding:60px;
@@ -41,7 +41,7 @@ export const Infos =styled.div`
   height: 180px;
   max-width:500px;
 
-  background: #C4C4C4;
+  background: #f4f4f4;
   margin-bottom:30px;
 
   display:flex;
@@ -57,8 +57,11 @@ export const Infos =styled.div`
     button{
       width: 134px;
       height: 55px;
-      background: #747474;
-      padding:10px;
+      background: #C0B283;
+      text-align:center;
+      font-weight:700;
+      font-size:16px;
+      border-radius:4px;
     }
   }
  
@@ -73,7 +76,7 @@ export const Infos =styled.div`
         font-weight: bold;
         font-size: 26px;
         line-height: 30px;
-        color: #000000;
+        color: #373737;
 
         margin-bottom:15px;
       }
@@ -86,7 +89,7 @@ export const Infos =styled.div`
         font-size: 18px;
         line-height: 21px;
 
-        color: #000000;
+        color: #373737;
       }
       }
     }
@@ -115,7 +118,7 @@ export const Filters = styled.div`
   width: 410px;
   height: 38px;
 
-  background: #C4C4C4;
+  background: #f4f4f4;
   border-radius: 20px;
 
   margin-right:5px;
@@ -155,35 +158,48 @@ export const Filters = styled.div`
 export const TableContainer =styled.div`
   margin-top:20px;
   width: 100%;
+  border:solid 1px #373737;
+  position: relative;
   table {
     border-collapse:collapse;
-    width: 100%;
+    width:100%;
     text-align:left;
   }
 
+  tr{
+    border:solid 1px #373737;
+  }
+
   th,td {
-    max-width:calc(1150px/5);
-    width:calc(100vw/5);
+    width:calc(100%);
+    width:172px;
     height: 60px;
     padding-left:11px;
   }
+  th{
+    font-weight:700;
+    font-size:18px;
+  }
+
 
   thead{
-    background-color:#747474;
+    background-color:#C0B283;
   }
   thead>tr {
     position: relative;
     display: block;
+    border:solid 1px #373737;
   }
 
   tbody {
     display: block;
     height: 300px;
     overflow: auto;
-    background:#C4C4C4;
+    background:#f4f4f4;
   }
   tbody tr:nth-child(even){
     background:#838383;
+    
   }
   button{
     background:none;
@@ -223,7 +239,7 @@ export const ModalContent =styled.div`
 
       border-radius:50%;
       border:solid 1px #000;
-      background: #747474;
+      background: #343434;
     }
   }
 
@@ -240,7 +256,7 @@ export const ModalContent =styled.div`
       font-size: 36px;
       line-height: 42px;
 
-      color: #000000;
+      color: #373737;
       margin-top:15px;
     }
 
@@ -251,10 +267,12 @@ export const ModalContent =styled.div`
 
     input{
         height: 30px;
-        background: #747474;
+        background: transparent;
         padding:5px 10px;
-        color:#fff;
+        color: #373737;
         margin-top:3px;
+        border: transparent;
+        border-bottom:1px solid  #373737;
     }
 
     button{
@@ -262,7 +280,11 @@ export const ModalContent =styled.div`
       height: 45px;
 
       margin:30px auto 0;
-      background: #747474;
+      background: #C0B283;
+      text-align:center;
+      font-weight:700;
+      font-size:16px;
+      border-radius:4px;
     }
   }
 

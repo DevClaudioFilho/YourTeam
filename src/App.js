@@ -7,7 +7,9 @@ import {ModalProvider} from "./contexts/ModalContext"
 
 function App() {
   return (
-     <ModalProvider value="">
+     <ModalProvider 
+      modalIsOpen openModal closeModal
+     >
         <BrowserRouter>
             <GlobalStyles/>
             <Routes />

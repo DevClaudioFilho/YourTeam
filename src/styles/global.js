@@ -1,7 +1,6 @@
 import { createGlobalStyle } from "styled-components";
 
 export default createGlobalStyle`
-  @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
   *{
     padding:0;
     margin:0;
@@ -13,14 +12,19 @@ export default createGlobalStyle`
     outline:0
   }
   html,body,#root{
-    height:100%
-    box
+    height:100%;
   }
   body{
     -webkit-font-smoothing:antialiased;
+    background-color:#DCd0c0;
   }
+
   body,input,button{
     font: 14px 'Roboto', sans-serif;
+  }
+
+  h1,h2,h3,h4,hr{
+    font-family: 'Noto Sans JP', sans-serif;
   }
   a{
     text-decoration: none

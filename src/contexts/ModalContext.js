@@ -6,12 +6,14 @@ const ModalProvider = ({children}) => {
   const [modalIsOpen,setModalIsOpen]=useState(false);
 
   function openModal() {
-    console.log(modalIsOpen);
+    
     setModalIsOpen(true);
+    console.log(modalIsOpen);
   }
 
   function closeModal() {
     setModalIsOpen(false);
+    console.log(modalIsOpen);
   }
 
   return (

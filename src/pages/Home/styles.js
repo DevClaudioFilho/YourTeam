@@ -3,9 +3,9 @@ import styled from 'styled-components';
 
 export const Header =styled.header`
   width: 100%;
-  height: 100px;
+  height: 80px;
 
-  background: #C4C4C4;
+  background: #f4f4f4 ;
   margin-bottom:30px;
 `;
 
@@ -26,7 +26,7 @@ export const InfoPainel =styled.section`
   width:500px;
 
   div{
-    background-color:#C4C4C4;
+    background-color:#f4f4f4 ;
     width:240px;
     height:115px;
   }
@@ -42,7 +42,7 @@ export const Filters = styled.div`
   display:flex;
   justify-content:flex-end;
 
-  margin-top:60px;
+  margin-top:30px;
   div{
   position:relative;
   display:flex;
@@ -54,7 +54,8 @@ export const Filters = styled.div`
   width: 410px;
   height: 38px;
 
-  background: #C4C4C4;
+  background: #f4f4f4 ;
+  border:1px solid; 
   border-radius: 20px;
 
   margin-right:5px;
@@ -90,39 +91,51 @@ export const Filters = styled.div`
   
   }
 `;
-
 export const TableContainer =styled.div`
   margin-top:20px;
   width: 100%;
+  border:solid 1px #373737;
+  position: relative;
   table {
     border-collapse:collapse;
-    width: 100%;
+    width:100%;
     text-align:left;
   }
 
+  tr{
+    border:solid 1px #373737;
+  }
+
   th,td {
-    max-width:calc(1150px/5);
-    width:calc(100vw/5);
+    width:calc(100%);
+    width:226px;
     height: 60px;
     padding-left:11px;
   }
+  th{
+    font-weight:700;
+    font-size:18px;
+  }
+
 
   thead{
-    background-color:#747474;
+    background-color:#C0B283;
   }
   thead>tr {
     position: relative;
     display: block;
+    border:solid 1px #373737;
   }
 
   tbody {
     display: block;
-    height: 220px;
+    height: 300px;
     overflow: auto;
-    background:#C4C4C4;
+    background:#f4f4f4;
   }
   tbody tr:nth-child(even){
     background:#838383;
+    
   }
   button{
     background:none;
